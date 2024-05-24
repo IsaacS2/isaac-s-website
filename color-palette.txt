@@ -1,0 +1,5 @@
+Orange: #EDA249
+Rhino: #292F55
+Careys Pink: #D8A0A0
+Viking: #65C0DE
+Indigo: #446FC2
