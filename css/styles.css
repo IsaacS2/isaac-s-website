@@ -48,16 +48,16 @@ h3 {
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     line-height: 0.95;
 }
 
 h2 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
 }
 
 h3 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 
 /* links */
@@ -181,12 +181,13 @@ footer a:hover {
 
 @media screen and (min-width: 900px) {
     .project-item {
-        display: flow-root;
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        column-gap: 20px;
     }
 
     .project-item img {
-        float: left;
-        margin-right: 20px;
+        width: 100%;
     }
 }
 
