@@ -32,7 +32,6 @@ body {
 }
 
 body {
-    background: #D4F1F4;
     margin: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
@@ -95,6 +94,12 @@ footer a:hover {
     margin: 0 auto;
     padding: 30px;
     max-width: 900px;
+}
+
+@media screen {
+    body {
+        background: #D4F1F4;
+    }
 }
 
 /* HOME
@@ -246,9 +251,11 @@ footer a:hover {
 
 /* FOOTER
 ---------------------------------------*/
-footer {
-    color: #D4F1F4;
-    background: #292F55;
+@media screen {
+    footer {
+        color: #D4F1F4;
+        background: #292F55;
+    }
 }
 
 .socials {
@@ -269,7 +276,8 @@ footer {
     opacity: 0.5;
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 860px),
+print {
     footer {
         display: flex;
         justify-content: space-between;
